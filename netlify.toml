@@ -1,0 +1,10 @@
+# Plain static site: a single self-contained HTML file, no framework or build step.
+[build]
+  publish = "."
+  command = ""
+
+# The page isn't named index.html, so serve it at the site root.
+[[redirects]]
+  from = "/"
+  to = "/gowtham_s_portfolio-v5.html"
+  status = 200
